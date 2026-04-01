@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# Rider / другие IDE
+.idea/
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Пользовательские настройки
+*.userprefs

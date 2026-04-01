@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EncodeDecode\EncodeDecode.csproj" />
+    <ProjectReference Include="..\PacketCreator\PacketCreator.csproj" />
+    <ProjectReference Include="..\Search\Search.csproj" />
+    <ProjectReference Include="..\Signature\Signature.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PacketCreator">
+      <HintPath>..\PacketCreator\bin\Debug\net5.0\PacketCreator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
